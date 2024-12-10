@@ -91,7 +91,7 @@ img {
 
 .button1:hover {
     background-color: var(--color-blueHover);
-    border: var(--color-blueHover) var(--border-button) solid;
+    border: var(--color-blueHover)  solid;
 }
 .main {
     width: 100%;
@@ -99,3 +99,17 @@ img {
     align-items: center;
     justify-content: center;
 }
+
+
+/*
+1- importei uma fonte do google usando @ import;
+2- root serve para facilitar a estilização deixando algumas medidas e configurações ja setadas utilizando var();
+3- widht altera largura, height altera altura;
+4- display permite alterar a forma como os elementos filhos são dispostos dentro do elemento pai;
+5- align items, justify content é o que altera a disposição dos elementos;
+6- gap cria distancia entre dois elementos;
+7- padding, margin adiciona uma margem no elemento;
+8- background-color altera a cor;
+9- border-radius arrendonda os cantos do elemento;
+10- border permite definir a cor e o tipo de traçado da borda;
+11- font-size e font-weight permite alterar o texto dentro do elemento.
